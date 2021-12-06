@@ -1,0 +1,40 @@
+<div class="wrapper">
+    <p>This is a web implementation of the 
+        <a href="https://main.dngfcadxhdjv2.amplifyapp.com/home" target="_blank">Lights Out</a>
+        game.  All the boards are winnable, I promise.</p>
+
+    <p>Each button, or square, has two states: on (yellow), and off (blue).  The goal is to 
+        turn all of the buttons on.  Pressing a button will cause it to toggle from on to off
+        or off to on.  It will also toggle the square above, below, to the left, and to right.
+    </p>
+
+    <p>To make sure that each game can be won, the app will start with a completed board.  It
+        will then randomly toggle buttons before presenting it to the user.  Since this started
+        with a completed board, the resulting board can be won by at least one path--- that it,
+        doing what the app did in reverse.
+    </p>
+
+    <p>Easy, medium, and hard games vary in board size and the number of randomizing moves.</p>
+    <table class="levels">
+        <tr class="heading">
+            <td>Level</td>
+            <td>Board Size</td>
+            <td>Number of Moves to Randomize</td>
+        </tr>
+        <tr>
+            <td>Easy</td>
+            <td>5 x 5</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>10 x 10</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Hard</td>
+            <td>10 x 10</td>
+            <td>7</td>
+        </tr>
+    </table>
+</div>

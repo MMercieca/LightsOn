@@ -7,6 +7,7 @@ import { PostsComponent } from './posts/posts.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { GameBoardComponent } from './game-board/game-board.component';
+import { InstructionsComponent } from './instructions/instructions.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { GameBoardComponent } from './game-board/game-board.component';
     PostsComponent,
     HomepageComponent,
     NavBarComponent,
-    GameBoardComponent
+    GameBoardComponent,
+    InstructionsComponent
   ],
   imports: [
     BrowserModule,
