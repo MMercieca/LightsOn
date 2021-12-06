@@ -1,0 +1,29 @@
+@import '../../variables'
+
+#nav-bar-container
+    position: fixed
+    z-index: 100
+    top: 0
+    background-color: $blue
+    color: $offWhite
+    display: flex
+    flex-direction: flex-row
+    padding: 2px 8px 2px 8px
+    text-align: center
+    width: 100%
+
+#nav-title
+    flex: 1 1 auto
+
+#nav-left, #nav-right
+    flex: 0 0 auto
+    line-height: 45px
+    width: 70px
+
+#nav-left a, #nav-left a:visited, #nav-right a, #nav-right a:visited
+    color: $offWhite
+    text-decoration: none
+
+#spacer
+    width: 100%
+    height: 50px
